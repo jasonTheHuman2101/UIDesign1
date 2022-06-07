@@ -7,10 +7,19 @@ body{
     margin-left: 15%;
     margin-right: 15%;
     text-align: center;
-    height: 98%;
     border-color: #111111;
 }
 
+h1{
+    font-size: 48px;
+    padding: 0;
+    margin: 8px;
+}
+h3{
+    margin: 8px;
+    font-size: 18;
+}
+/* To make the buttons at the top */
 ul {
     list-style-type: none;
     margin: 0;
@@ -41,9 +50,10 @@ li:hover {
     color: black;
 }
 
+/* for the main divs */
 #mainContentHolder{
-    height: 100%;
     background-color: #eeeeee;
+    min-height:max-content;
 }
 #title{
     font-size: 72px;
@@ -53,4 +63,17 @@ li:hover {
 #subtitle{
     font-size: 24px;
     color: #333333;
+}
+div.contentBox{
+    margin: 8px;
+    text-align: left;
+    border: 2px solid;
+    font-size: 18px;
+}
+
+/* Footer */
+
+#footer{
+    border-top: 2px solid;
+    font-size: 18px;
 }
